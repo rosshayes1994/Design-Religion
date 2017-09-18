@@ -1,0 +1,604 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* CREATED ON THE 16TH SEP 2017 - ROSS HAYES | WEB DESIGNER & DEVELOPER - ROSSHAYES1994@OUTLOOK.COM/*
+
+/*-------------GLOBALS--------------*/
+
+i {
+    border: solid 1px #99cbed;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 20%;
+}
+
+#ghost-button,.col-md-4.quicklinks ul li a{
+	transition-duration: .6s;
+}
+
+#ghost-button:hover {
+    color: white;
+}
+
+.col-md-4.quicklinks ul li a:hover {
+    color: white;
+}
+
+.arrow.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.main {
+    position: relative;
+}
+
+/*-------------HEADER SECTION--------------*/
+
+.mobile-search{display:none;}
+
+a:hover{text-decoration: none !important;}
+
+.nav.navbar-nav.right {
+    float: right;
+}
+
+.navbar-nav>li{
+	float:left;
+}
+
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #d0cece;
+    font-weight: 300;
+	font-size:1.1vw;
+}
+
+.navbar-nav>li>a:hover {
+    color:#280072;
+}
+
+#AU {
+    color: #3da5da;
+}
+
+.row.titles {
+    margin-bottom: 4%;
+}
+
+
+.navbar-eusr {
+    background-color: #280072;
+    margin: 0;
+    border-radius: 0;
+}
+
+.logo img {
+    margin: 10% 0 10%;
+    max-width: 120px;
+}
+
+ul.nav.navbar-nav.right {
+    margin-top: 1%;
+    font-size: .8em;
+}
+
+/*-------------SLIDER CALL TO ACTION SECTION--------------*/
+
+
+.slider {
+    position: relative;
+}
+
+
+.slider-content {
+    position: absolute;
+    width: 100%;
+    top: 12%;
+}
+
+/*-------------FORM SECTION--------------*/
+
+
+
+.blue-form {
+    max-width: 400px;
+    background-color: rgba(70, 168, 216, 0.8);
+    padding: 1% 2.5% 1% 2.5%;
+    float:right;
+    width: 49%;
+    
+}
+
+.blue-form h3 {
+    font-size: 1em;
+    margin: 3% 0 0 0;
+    color: #280072;
+}
+
+.form-control{
+	font-size:10px !important;
+	border:none !important;
+	border-radius: 0 !important;
+	height:auto!important 
+		
+}
+
+label.control-label {
+    font-size: .7em;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.53);
+}
+
+label {
+	width:100%;
+}
+
+.form-group p {
+    font-size: .7em;
+    font-weight: bold;
+    color: #280072;
+}
+
+#Search {
+    color: rgb(249, 249, 169);
+    border: none;
+    border-radius: 0;
+    background-color: #280072;
+}
+
+/*-------------TEXTUAL HEADERS--------------*/
+
+.col-sm-6.sub-title p {
+    color: gray;
+    font-size: 1.1em;
+}
+
+.col-sm-6.header h1 {
+    color: #280072;
+    font-size: 1.8em;
+    margin-top: 0;
+}
+
+/*-------------CTA IMAGE BOXES--------------*/
+
+.image-box{
+	position:relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(128, 206, 240, 0.79);
+}
+
+.image-box:hover .overlay {
+  opacity: 1;
+}
+
+.caption {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+
+.col-sm-4.CTA img {
+    width: 100%;
+}
+
+.text {
+    background-color: #e6e6e6;
+    padding: 4% 0 2% 7%;
+}
+
+.text h2 {
+    margin-top: 0;
+    color: #280072;
+    font-size: 1.4em;
+}
+
+.text p {
+    font-size: .9em;
+    color: #656464;
+}
+
+/*-------------BLOG EXCERPT BOXES--------------*/
+
+
+.col-sm-6.excerpt-title h5 {
+    color: white;
+}
+
+.col-sm-3.excerpt img {
+    width: 100%;
+	transition-duration: 0.6s;
+}
+
+
+.container.white{
+	margin-top:4%;
+	
+}
+
+.full-wrap {
+    padding: 5% 0 5% 0;
+    background-image:url(Graphics/blue-background.png);
+    margin-top: 4%;
+}
+
+.col-md-6.excerpt-title h5 {
+    margin: 0 0 4% 0;
+    color: white;
+    font-size: .8em;
+}
+.col-sm-3.excerpt img:hover {
+    opacity: 0.7;
+}
+
+a.cat {
+    display: block;
+    color: white;
+    font-size: .7em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+a.blog-title {
+    display: block;
+    color: #280072;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+a.read-more {
+    color: white;
+    font-size: .7em;
+}
+
+
+
+
+
+
+/*-------------FOOTER SECTIONS--------------*/
+
+.footer {
+    background-color: #280072;
+    color: white;
+    padding: 4% 0 4% 0;
+}
+
+
+.col-md-6.footer-right {
+    text-align: right;
+}
+
+.col-md-4.schemes {
+    text-align: left;
+}
+
+.footer-title {
+    display: block;
+    font-weight: 200;
+    font-size: .9em;
+	margin-bottom:7%;
+}
+
+.col-md-6.footer-left img {
+    width: 100%;
+    max-width: 150px;
+    border-right: solid 1px white;
+    padding-right: 15%;
+}
+
+.col-md-6.footer-left a{
+	transition-duration: 0.5s;
+}
+
+.col-md-6.footer-left a:hover{
+	opacity:0.4;
+}
+
+
+#QL {
+    font-weight: 300;
+}
+
+.col-md-4.quicklinks {
+    text-align: left;
+}
+
+.col-md-4.quicklinks
+ul{margin:0; padding:0;}
+
+.col-md-4.quicklinks ul li {
+    list-style: none;
+    font-weight: 100;
+    color: #e2c016;
+    font-size: .9em;
+    border-bottom: solid 1px #4c154c;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.col-md-4.quicklinks ul li a{
+	color: #e2c016;
+}
+
+.col-md-4.quicklinks ul li:last-child {
+    border: none;
+}
+
+#ghost-button {
+    color: #d6a84b;
+    font-weight: 300;
+    font-size: .8vw;
+    border: solid 1px white;
+    padding: .5vw;
+}
+
+.col-sm-2.design-religion {
+    text-align: right;
+}
+
+.col-sm-4.footer-links {
+    text-align: center;
+}
+
+.col-sm-4.footer-links a {
+    padding-right: 1em;
+    font-size: .9em;
+    color: #99cbed;
+}
+
+.row.lower-footer {
+    margin-top: 4%;
+}
+
+
+
+.col-sm-4.copyright {
+    color: #99cbed;
+    font-size: 1em;
+}
+.col-sm-2.social-icons img {
+    padding-right: 8%;
+	
+}
+   
+.col-sm-2.social-icons a, .col-sm-4.footer-links a, .col-sm-2.design-religion a {
+	transition-duration:0.6s;
+}
+.col-sm-2.social-icons a:hover, .col-sm-4.footer-links a:hover, .col-sm-2.design-religion a:hover {
+    opacity: 0.3;
+	text-decoration:none;
+}
+
+/*--------------------------------------------------------------
+## Media Q's
+--------------------------------------------------------------*/
+@media screen and (max-width: 1200px){
+	
+	.col-sm-4.footer-links a{
+		font-size:1vw;
+	}
+	
+}
+
+
+
+
+@media screen and (max-width: 992px){
+	
+	.slider-content{
+		top:4%;
+	}
+	
+	.col-sm-2.social-icons img {
+    padding-right: 2%;
+    }
+	
+	#ghost-button{
+		font-size:.9em;
+	}
+	
+	.footer-title {
+    clear: both;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    }
+	
+	.col-md-4.quicklinks {
+    margin-top: 2%;
+    }
+	
+	.col-md-6.footer-left {
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 3%;
+    }
+	
+}
+@media screen and (max-width: 767px){
+
+.logo img {
+    margin: 2%;
+    }
+	
+button.navbar-toggle {
+    background-color: white;
+    border: none;
+    margin-top: 3%;
+    }
+	
+.icon-bar {
+    /* color: black; */
+    background: #0d0025;
+	}
+	
+	ul.nav.navbar-nav.right {
+    width: 100%;
+    text-align: center;
+}
+	
+	.navbar-nav>li{
+		float:none;
+	}
+	
+	.navbar-nav>li>a{
+		font-size:1.1em;
+	}
+	
+	.navbar-nav {
+    margin: 0 !important;
+    }
+	
+	.col-sm-4.CTA {
+    margin-bottom: 6%;
+    }
+	
+	.col-sm-3.excerpt {
+    background-color: #f9f9f9;
+    border: solid 1px #a2a0a0;
+    padding: 3%;
+    margin: 1%;
+    }
+	
+	a.cat {
+    display: block;
+    color: #280072;
+    font-size: .7em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+	
+    }
+	
+	a.read-more {
+    color: #280072;
+    font-size: .7em;
+    border: solid 1px;
+    padding: 1% 6% 1% 6%;
+    }
+	.col-md-4.schemes {
+    text-align: left;
+    clear: both;
+    margin-top: 12%;
+    }
+	
+	#ghost-button {
+    color: #d6a84b;
+    font-weight: 300;
+    font-size: 1em;
+    border: solid 1px white;
+    
+	
+    }
+	span.footer-title {
+    margin-bottom: 3%;
+    }
+	.col-md-4.schemes {
+    text-align: center;
+		margin-top:4%;
+	}
+	
+	.col-md-4.quicklinks {
+    margin-top: 6%;
+		text-align:center;
+    }
+	
+	.col-sm-4.copyright {
+    font-size: .8em;
+		text-align:center;
+    }
+	
+	.col-sm-2.social-icons {
+    text-align: center;
+	
+    }
+	
+	
+	
+	.col-sm-4.footer-links {
+    margin-top: 3%;
+    }
+	
+	.col-sm-4.footer-links a{
+		font-size:.8em;
+	}
+	
+	.col-sm-2.design-religion {
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    }
+	
+	.blue-form{
+		display:none;
+	}
+	.mobile-search{
+		display:block;
+	}
+	
+	.slider-content {
+    top: 1.3%;
+    }
+	
+	.container.content h2 {
+    color: white;
+    background-color: rgba(0, 182, 242, 0.64);
+    padding: 1%;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-weight: 300;
+
+    }
+	
+	.mobile-search {
+    text-align: center;
+     
+    }
+	
+	.mobile-search p {
+    color: white;
+    background: rgba(27, 165, 221, 0.58);
+    width: 60%;
+    font-size: 1.1em;
+    margin: auto;
+    margin-top: 1%;
+}
+	
+	.mobile-search button.btn.btn-primary {
+    border: none;
+    border-radius: 0;
+    color: #f1ef81;
+    margin-top: 1%;
+    }
+	
+	.col-md-6.footer-left {
+    overflow: hidden;
+    text-align: center;
+    }
+	
+	
+	
+	
+	
+	
+}
